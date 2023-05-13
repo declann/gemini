@@ -1,6 +1,6 @@
 {
   "title": "Changing the Data of a Scatter Plot",
-  "sSpec": {
+  "sequence": [{
     "$schema": "https://vega.github.io/schema/vega/v5.json",
     "autosize": "pad",
     "padding": 5,
@@ -96,8 +96,7 @@
         "encode": {"axis": {"name": "y"}}
       }
     ]
-  },
-  "eSpec": {
+  },{
     "$schema": "https://vega.github.io/schema/vega/v5.json",
     "autosize": "pad",
     "padding": 5,
@@ -193,7 +192,7 @@
         "encode": {"axis": {"name": "y"}}
       }
     ]
-  },
+  }],
   "gemSpecs": [
     {
       "meta": {"name": "All at once"},

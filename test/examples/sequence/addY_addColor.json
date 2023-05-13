@@ -1,36 +1,4 @@
 {
-  "start": {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "data": {
-      "values": [
-        {"Hungry": 10, "Name": "Gemini", "t": 1},
-        {"Hungry": 60, "Name": "Cordelia", "t": 1},
-        {"Hungry": 80, "Name": "Gemini", "t": 2},
-        {"Hungry": 100, "Name": "Cordelia", "t": 2}
-      ]
-    },
-    "mark": "point",
-    "encoding": {
-      "x": { "field": "Hungry", "type": "quantitative"}
-    }
-  },
-  "end": {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "data": {
-      "values": [
-        {"Hungry": 10, "Name": "Gemini", "t": 1},
-        {"Hungry": 60, "Name": "Cordelia", "t": 1},
-        {"Hungry": 80, "Name": "Gemini", "t": 2},
-        {"Hungry": 100, "Name": "Cordelia", "t": 2}
-      ]
-    },
-    "mark": "point",
-    "encoding": {
-      "x": { "field": "Hungry", "type": "quantitative"},
-      "y": { "field": "Name", "type": "nominal"},
-      "color": { "field": "t", "type": "nominal"}
-    }
-  },
   "gemSpecs": [
     {
       "timeline": {
