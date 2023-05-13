@@ -1443,6 +1443,26 @@
         ]
       },
       "totalDuration": 2000
+    },{
+      "meta": {"name": "All at once"},
+      "timeline": {
+        "sync": [
+          {
+            "component": {"axis": "x"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"axis": "y"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["t_in"]},
+            "timing": {"duration": {"ratio": 1}}
+          }
+        ]
+      },
+      "totalDuration": 2000
     },
     {
       "meta": {"name": "Scale -> Update -> Enter -> Exit"},
