@@ -15,9 +15,9 @@
   let gemSpecs, sequence;
   async function init(){
 
-    input = await d3.json("./examples/transition/scatterPlot.json");
+    input = await d3.json("./examples/transition/calculang-projectile.json");
     gemSpecs = input.gemSpecs;
-    sequence = input.sequence//.map(gemini.vl2vg4gemini);
+    sequence = input.sequence.map(gemini.vl2vg4gemini);
 
     vegaEmbed("#view", sequence[0], {renderer: "svg"})
   }
