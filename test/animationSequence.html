@@ -16,7 +16,7 @@
   let gemSpecs, sequence;
   async function init(){
 
-    input = await d3.json("./examples/transition/calculang-projectile.json");
+    input = await d3.json("./examples/transition/calculang-bounce.json");
     gemSpecs = input.gemSpecs;
     sequence = input.sequence.map(gemini.vl2vg4gemini);
 

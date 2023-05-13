@@ -1,0 +1,1245 @@
+{
+  "title": "Changing the Data of a Scatter Plot",
+  "sequence": [{
+    "data": {"name": "projection"},
+    "mark": {"type": "point", "tooltip": true, "strokeWidth": 5},
+    "encoding": {
+      "x": {
+        "field": "x",
+        "type": "quantitative",
+        "axis": {"labelAngle": 0, "orient": "top"}
+      },
+      "y": {"field": "y", "type": "quantitative", "sort": "descending"},
+      "detail": {"field": "t_in", "type": "nominal"},
+      "color": {"field": "interaction", "type": "nominal"},
+      "size": {"value": 100}
+    },
+    "config": {"legend": {"disable": true}},
+    "width": 600,
+    "height": 400,
+    "datasets": {
+      "projection": [
+        {"t_in": 0, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 1, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 2, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 3, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 4, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 5, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 6, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 7, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 8, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 9, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 10, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 11, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 12, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 13, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 14, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 15, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 16, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 17, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 18, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 19, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 20, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 21, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 22, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 23, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 24, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 25, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 26, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 27, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 28, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 29, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 30, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 31, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 32, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 33, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 34, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 35, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 36, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 37, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 38, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 39, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 40, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 41, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 42, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 43, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 44, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 45, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 46, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 47, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 48, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 49, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 50, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 51, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 52, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 53, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 54, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 55, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 56, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 57, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 58, "interaction": 0, "x": 100, "y": 50},
+        {"t_in": 59, "interaction": 0, "x": 100, "y": 50}
+      ]
+    }
+  },{
+    "data": {"name": "projection"},
+    "mark": {"type": "point", "tooltip": true, "strokeWidth": 5},
+    "encoding": {
+      "x": {
+        "field": "x",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "axis": {"labelAngle": 0, "orient": "top"}
+      },
+      "y": {"field": "y", "type": "quantitative", "sort": "descending"},
+      "detail": {"field": "t_in", "type": "nominal"},
+      "color": {"field": "interaction", "type": "nominal"},
+      "size": {"value": 100}
+    },
+    "config": {"legend": {"disable": true}},
+    "width": 600,
+    "height": 400,
+    "datasets": {
+      "projection": [
+        {"dx_in": 3, "t_in": 0, "interaction": 0, "x": 103, "y": 50},
+        {"dx_in": 3, "t_in": 1, "interaction": 0, "x": 106, "y": 50},
+        {"dx_in": 3, "t_in": 2, "interaction": 0, "x": 109, "y": 50},
+        {"dx_in": 3, "t_in": 3, "interaction": 0, "x": 112, "y": 50},
+        {"dx_in": 3, "t_in": 4, "interaction": 0, "x": 115, "y": 50},
+        {"dx_in": 3, "t_in": 5, "interaction": 0, "x": 118, "y": 50},
+        {"dx_in": 3, "t_in": 6, "interaction": 0, "x": 121, "y": 50},
+        {"dx_in": 3, "t_in": 7, "interaction": 0, "x": 124, "y": 50},
+        {"dx_in": 3, "t_in": 8, "interaction": 0, "x": 127, "y": 50},
+        {"dx_in": 3, "t_in": 9, "interaction": 0, "x": 130, "y": 50},
+        {"dx_in": 3, "t_in": 10, "interaction": 0, "x": 133, "y": 50},
+        {"dx_in": 3, "t_in": 11, "interaction": 0, "x": 136, "y": 50},
+        {"dx_in": 3, "t_in": 12, "interaction": 0, "x": 139, "y": 50},
+        {"dx_in": 3, "t_in": 13, "interaction": 0, "x": 142, "y": 50},
+        {"dx_in": 3, "t_in": 14, "interaction": 0, "x": 145, "y": 50},
+        {"dx_in": 3, "t_in": 15, "interaction": 0, "x": 148, "y": 50},
+        {"dx_in": 3, "t_in": 16, "interaction": 0, "x": 151, "y": 50},
+        {"dx_in": 3, "t_in": 17, "interaction": 0, "x": 154, "y": 50},
+        {"dx_in": 3, "t_in": 18, "interaction": 0, "x": 157, "y": 50},
+        {"dx_in": 3, "t_in": 19, "interaction": 0, "x": 160, "y": 50},
+        {"dx_in": 3, "t_in": 20, "interaction": 0, "x": 163, "y": 50},
+        {"dx_in": 3, "t_in": 21, "interaction": 0, "x": 166, "y": 50},
+        {"dx_in": 3, "t_in": 22, "interaction": 0, "x": 169, "y": 50},
+        {"dx_in": 3, "t_in": 23, "interaction": 0, "x": 172, "y": 50},
+        {"dx_in": 3, "t_in": 24, "interaction": 0, "x": 175, "y": 50},
+        {"dx_in": 3, "t_in": 25, "interaction": 0, "x": 178, "y": 50},
+        {"dx_in": 3, "t_in": 26, "interaction": 0, "x": 181, "y": 50},
+        {"dx_in": 3, "t_in": 27, "interaction": 0, "x": 184, "y": 50},
+        {"dx_in": 3, "t_in": 28, "interaction": 0, "x": 187, "y": 50},
+        {"dx_in": 3, "t_in": 29, "interaction": 0, "x": 190, "y": 50},
+        {"dx_in": 3, "t_in": 30, "interaction": 0, "x": 193, "y": 50},
+        {"dx_in": 3, "t_in": 31, "interaction": 0, "x": 196, "y": 50},
+        {"dx_in": 3, "t_in": 32, "interaction": 0, "x": 199, "y": 50},
+        {"dx_in": 3, "t_in": 33, "interaction": 0, "x": 202, "y": 50},
+        {"dx_in": 3, "t_in": 34, "interaction": 0, "x": 205, "y": 50},
+        {"dx_in": 3, "t_in": 35, "interaction": 0, "x": 208, "y": 50},
+        {"dx_in": 3, "t_in": 36, "interaction": 0, "x": 211, "y": 50},
+        {"dx_in": 3, "t_in": 37, "interaction": 0, "x": 214, "y": 50},
+        {"dx_in": 3, "t_in": 38, "interaction": 0, "x": 217, "y": 50},
+        {"dx_in": 3, "t_in": 39, "interaction": 0, "x": 220, "y": 50},
+        {"dx_in": 3, "t_in": 40, "interaction": 0, "x": 223, "y": 50},
+        {"dx_in": 3, "t_in": 41, "interaction": 0, "x": 226, "y": 50},
+        {"dx_in": 3, "t_in": 42, "interaction": 0, "x": 229, "y": 50},
+        {"dx_in": 3, "t_in": 43, "interaction": 0, "x": 232, "y": 50},
+        {"dx_in": 3, "t_in": 44, "interaction": 0, "x": 235, "y": 50},
+        {"dx_in": 3, "t_in": 45, "interaction": 0, "x": 238, "y": 50},
+        {"dx_in": 3, "t_in": 46, "interaction": 0, "x": 241, "y": 50},
+        {"dx_in": 3, "t_in": 47, "interaction": 0, "x": 244, "y": 50},
+        {"dx_in": 3, "t_in": 48, "interaction": 0, "x": 247, "y": 50},
+        {"dx_in": 3, "t_in": 49, "interaction": 0, "x": 250, "y": 50},
+        {"dx_in": 3, "t_in": 50, "interaction": 0, "x": 253, "y": 50},
+        {"dx_in": 3, "t_in": 51, "interaction": 0, "x": 256, "y": 50},
+        {"dx_in": 3, "t_in": 52, "interaction": 0, "x": 259, "y": 50},
+        {"dx_in": 3, "t_in": 53, "interaction": 0, "x": 262, "y": 50},
+        {"dx_in": 3, "t_in": 54, "interaction": 0, "x": 265, "y": 50},
+        {"dx_in": 3, "t_in": 55, "interaction": 0, "x": 268, "y": 50},
+        {"dx_in": 3, "t_in": 56, "interaction": 0, "x": 271, "y": 50},
+        {"dx_in": 3, "t_in": 57, "interaction": 0, "x": 274, "y": 50},
+        {"dx_in": 3, "t_in": 58, "interaction": 0, "x": 277, "y": 50},
+        {"dx_in": 3, "t_in": 59, "interaction": 0, "x": 280, "y": 50}
+      ]
+    }
+  },{
+    "data": {"name": "projection"},
+    "mark": {"type": "point", "tooltip": true, "strokeWidth": 5},
+    "encoding": {
+      "x": {
+        "field": "x",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "axis": {"labelAngle": 0, "orient": "top"}
+      },
+      "y": {
+        "field": "y",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "sort": "descending"
+      },
+      "detail": {"field": "t_in", "type": "nominal"},
+      "color": {"field": "interaction", "type": "nominal"},
+      "size": {"value": 100}
+    },
+    "config": {"legend": {"disable": true}},
+    "width": 600,
+    "height": 400,
+    "datasets": {
+      "projection": [
+        {"dx_in": 3, "t_in": 0, "interaction": 0, "x": 103, "y": 50},
+        {"dx_in": 3, "t_in": 1, "interaction": 0, "x": 106, "y": 53},
+        {"dx_in": 3, "t_in": 2, "interaction": 0, "x": 109, "y": 56},
+        {"dx_in": 3, "t_in": 3, "interaction": 0, "x": 112, "y": 59},
+        {"dx_in": 3, "t_in": 4, "interaction": 0, "x": 115, "y": 62},
+        {"dx_in": 3, "t_in": 5, "interaction": 0, "x": 118, "y": 65},
+        {"dx_in": 3, "t_in": 6, "interaction": 0, "x": 121, "y": 68},
+        {"dx_in": 3, "t_in": 7, "interaction": 0, "x": 124, "y": 71},
+        {"dx_in": 3, "t_in": 8, "interaction": 0, "x": 127, "y": 74},
+        {"dx_in": 3, "t_in": 9, "interaction": 0, "x": 130, "y": 77},
+        {"dx_in": 3, "t_in": 10, "interaction": 0, "x": 133, "y": 80},
+        {"dx_in": 3, "t_in": 11, "interaction": 0, "x": 136, "y": 83},
+        {"dx_in": 3, "t_in": 12, "interaction": 0, "x": 139, "y": 86},
+        {"dx_in": 3, "t_in": 13, "interaction": 0, "x": 142, "y": 89},
+        {"dx_in": 3, "t_in": 14, "interaction": 0, "x": 145, "y": 92},
+        {"dx_in": 3, "t_in": 15, "interaction": 0, "x": 148, "y": 95},
+        {"dx_in": 3, "t_in": 16, "interaction": 0, "x": 151, "y": 98},
+        {"dx_in": 3, "t_in": 17, "interaction": 0, "x": 154, "y": 101},
+        {"dx_in": 3, "t_in": 18, "interaction": 0, "x": 157, "y": 104},
+        {"dx_in": 3, "t_in": 19, "interaction": 0, "x": 160, "y": 107},
+        {"dx_in": 3, "t_in": 20, "interaction": 0, "x": 163, "y": 110},
+        {"dx_in": 3, "t_in": 21, "interaction": 0, "x": 166, "y": 113},
+        {"dx_in": 3, "t_in": 22, "interaction": 0, "x": 169, "y": 116},
+        {"dx_in": 3, "t_in": 23, "interaction": 0, "x": 172, "y": 119},
+        {"dx_in": 3, "t_in": 24, "interaction": 0, "x": 175, "y": 122},
+        {"dx_in": 3, "t_in": 25, "interaction": 0, "x": 178, "y": 125},
+        {"dx_in": 3, "t_in": 26, "interaction": 0, "x": 181, "y": 128},
+        {"dx_in": 3, "t_in": 27, "interaction": 0, "x": 184, "y": 131},
+        {"dx_in": 3, "t_in": 28, "interaction": 0, "x": 187, "y": 134},
+        {"dx_in": 3, "t_in": 29, "interaction": 0, "x": 190, "y": 137},
+        {"dx_in": 3, "t_in": 30, "interaction": 0, "x": 193, "y": 140},
+        {"dx_in": 3, "t_in": 31, "interaction": 0, "x": 196, "y": 143},
+        {"dx_in": 3, "t_in": 32, "interaction": 0, "x": 199, "y": 146},
+        {"dx_in": 3, "t_in": 33, "interaction": 0, "x": 202, "y": 149},
+        {"dx_in": 3, "t_in": 34, "interaction": 0, "x": 205, "y": 152},
+        {"dx_in": 3, "t_in": 35, "interaction": 0, "x": 208, "y": 155},
+        {"dx_in": 3, "t_in": 36, "interaction": 0, "x": 211, "y": 158},
+        {"dx_in": 3, "t_in": 37, "interaction": 0, "x": 214, "y": 161},
+        {"dx_in": 3, "t_in": 38, "interaction": 0, "x": 217, "y": 164},
+        {"dx_in": 3, "t_in": 39, "interaction": 0, "x": 220, "y": 167},
+        {"dx_in": 3, "t_in": 40, "interaction": 0, "x": 223, "y": 170},
+        {"dx_in": 3, "t_in": 41, "interaction": 0, "x": 226, "y": 173},
+        {"dx_in": 3, "t_in": 42, "interaction": 0, "x": 229, "y": 176},
+        {"dx_in": 3, "t_in": 43, "interaction": 0, "x": 232, "y": 179},
+        {"dx_in": 3, "t_in": 44, "interaction": 0, "x": 235, "y": 182},
+        {"dx_in": 3, "t_in": 45, "interaction": 0, "x": 238, "y": 185},
+        {"dx_in": 3, "t_in": 46, "interaction": 0, "x": 241, "y": 188},
+        {"dx_in": 3, "t_in": 47, "interaction": 0, "x": 244, "y": 191},
+        {"dx_in": 3, "t_in": 48, "interaction": 0, "x": 247, "y": 194},
+        {"dx_in": 3, "t_in": 49, "interaction": 0, "x": 250, "y": 197},
+        {"dx_in": 3, "t_in": 50, "interaction": 0, "x": 253, "y": 200},
+        {"dx_in": 3, "t_in": 51, "interaction": 0, "x": 256, "y": 203},
+        {"dx_in": 3, "t_in": 52, "interaction": 0, "x": 259, "y": 206},
+        {"dx_in": 3, "t_in": 53, "interaction": 0, "x": 262, "y": 209},
+        {"dx_in": 3, "t_in": 54, "interaction": 0, "x": 265, "y": 212},
+        {"dx_in": 3, "t_in": 55, "interaction": 0, "x": 268, "y": 215},
+        {"dx_in": 3, "t_in": 56, "interaction": 0, "x": 271, "y": 218},
+        {"dx_in": 3, "t_in": 57, "interaction": 0, "x": 274, "y": 221},
+        {"dx_in": 3, "t_in": 58, "interaction": 0, "x": 277, "y": 224},
+        {"dx_in": 3, "t_in": 59, "interaction": 0, "x": 280, "y": 227}
+      ]
+    }
+  },{
+    "data": {"name": "projection"},
+    "mark": {"type": "point", "tooltip": true, "strokeWidth": 5},
+    "encoding": {
+      "x": {
+        "field": "x",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "axis": {"labelAngle": 0, "orient": "top"}
+      },
+      "y": {
+        "field": "y",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "sort": "descending"
+      },
+      "detail": {"field": "t_in", "type": "nominal"},
+      "color": {"field": "interaction", "type": "nominal"},
+      "size": {"value": 100}
+    },
+    "config": {"legend": {"disable": true}},
+    "width": 600,
+    "height": 400,
+    "datasets": {
+      "projection": [
+        {"dx_in": 3, "t_in": 0, "interaction": 0, "x": 103, "y": 50},
+        {"dx_in": 3, "t_in": 1, "interaction": 0, "x": 106, "y": 53},
+        {"dx_in": 3, "t_in": 2, "interaction": 0, "x": 109, "y": 56},
+        {"dx_in": 3, "t_in": 3, "interaction": 0, "x": 112, "y": 59},
+        {"dx_in": 3, "t_in": 4, "interaction": 0, "x": 115, "y": 62},
+        {"dx_in": 3, "t_in": 5, "interaction": 0, "x": 118, "y": 65},
+        {"dx_in": 3, "t_in": 6, "interaction": 0, "x": 121, "y": 68},
+        {"dx_in": 3, "t_in": 7, "interaction": 0, "x": 124, "y": 71},
+        {"dx_in": 3, "t_in": 8, "interaction": 0, "x": 127, "y": 74},
+        {"dx_in": 3, "t_in": 9, "interaction": 0, "x": 130, "y": 77},
+        {"dx_in": 3, "t_in": 10, "interaction": 0, "x": 133, "y": 80},
+        {"dx_in": 3, "t_in": 11, "interaction": 0, "x": 136, "y": 83},
+        {"dx_in": 3, "t_in": 12, "interaction": 0, "x": 139, "y": 86},
+        {"dx_in": 3, "t_in": 13, "interaction": 0, "x": 142, "y": 89},
+        {"dx_in": 3, "t_in": 14, "interaction": 0, "x": 145, "y": 92},
+        {"dx_in": 3, "t_in": 15, "interaction": 0, "x": 148, "y": 95},
+        {"dx_in": 3, "t_in": 16, "interaction": 0, "x": 151, "y": 98},
+        {"dx_in": 3, "t_in": 17, "interaction": 0, "x": 154, "y": 101},
+        {"dx_in": 3, "t_in": 18, "interaction": 0, "x": 157, "y": 104},
+        {"dx_in": 3, "t_in": 19, "interaction": 0, "x": 160, "y": 107},
+        {"dx_in": 3, "t_in": 20, "interaction": 0, "x": 163, "y": 110},
+        {"dx_in": 3, "t_in": 21, "interaction": 0, "x": 166, "y": 113},
+        {"dx_in": 3, "t_in": 22, "interaction": 0, "x": 169, "y": 116},
+        {"dx_in": 3, "t_in": 23, "interaction": 0, "x": 172, "y": 119},
+        {"dx_in": 3, "t_in": 24, "interaction": 0, "x": 175, "y": 122},
+        {"dx_in": 3, "t_in": 25, "interaction": 0, "x": 178, "y": 125},
+        {"dx_in": 3, "t_in": 26, "interaction": 0, "x": 181, "y": 128},
+        {"dx_in": 3, "t_in": 27, "interaction": 0, "x": 184, "y": 131},
+        {"dx_in": 3, "t_in": 28, "interaction": 0, "x": 187, "y": 134},
+        {"dx_in": 3, "t_in": 29, "interaction": 0, "x": 190, "y": 137},
+        {"dx_in": 3, "t_in": 30, "interaction": 0, "x": 193, "y": 140},
+        {"dx_in": 3, "t_in": 31, "interaction": 0, "x": 196, "y": 143},
+        {"dx_in": 3, "t_in": 32, "interaction": 0, "x": 199, "y": 146},
+        {"dx_in": 3, "t_in": 33, "interaction": 0, "x": 202, "y": 149},
+        {"dx_in": 3, "t_in": 34, "interaction": 0, "x": 205, "y": 152},
+        {"dx_in": 3, "t_in": 35, "interaction": 0, "x": 208, "y": 155},
+        {"dx_in": 3, "t_in": 36, "interaction": 0, "x": 211, "y": 158},
+        {"dx_in": 3, "t_in": 37, "interaction": 0, "x": 214, "y": 161},
+        {"dx_in": 3, "t_in": 38, "interaction": 0, "x": 217, "y": 164},
+        {"dx_in": 3, "t_in": 39, "interaction": 0, "x": 220, "y": 167},
+        {"dx_in": 3, "t_in": 40, "interaction": 0, "x": 223, "y": 170},
+        {"dx_in": 3, "t_in": 41, "interaction": 0, "x": 226, "y": 173},
+        {"dx_in": 3, "t_in": 42, "interaction": 0, "x": 229, "y": 176},
+        {"dx_in": 3, "t_in": 43, "interaction": 0, "x": 232, "y": 179},
+        {"dx_in": 3, "t_in": 44, "interaction": 0, "x": 235, "y": 182},
+        {"dx_in": 3, "t_in": 45, "interaction": 0, "x": 238, "y": 185},
+        {"dx_in": 3, "t_in": 46, "interaction": 0, "x": 241, "y": 188},
+        {"dx_in": 3, "t_in": 47, "interaction": 0, "x": 244, "y": 185},
+        {"dx_in": 3, "t_in": 48, "interaction": 0, "x": 247, "y": 182},
+        {"dx_in": 3, "t_in": 49, "interaction": 0, "x": 250, "y": 179},
+        {"dx_in": 3, "t_in": 50, "interaction": 0, "x": 253, "y": 176},
+        {"dx_in": 3, "t_in": 51, "interaction": 0, "x": 256, "y": 173},
+        {"dx_in": 3, "t_in": 52, "interaction": 0, "x": 259, "y": 170},
+        {"dx_in": 3, "t_in": 53, "interaction": 0, "x": 262, "y": 167},
+        {"dx_in": 3, "t_in": 54, "interaction": 0, "x": 265, "y": 164},
+        {"dx_in": 3, "t_in": 55, "interaction": 0, "x": 268, "y": 161},
+        {"dx_in": 3, "t_in": 56, "interaction": 0, "x": 271, "y": 158},
+        {"dx_in": 3, "t_in": 57, "interaction": 0, "x": 274, "y": 155},
+        {"dx_in": 3, "t_in": 58, "interaction": 0, "x": 277, "y": 152},
+        {"dx_in": 3, "t_in": 59, "interaction": 0, "x": 280, "y": 149}
+      ]
+    }
+  },{
+    "data": {"name": "projection"},
+    "mark": {"type": "point", "tooltip": true, "strokeWidth": 5},
+    "encoding": {
+      "x": {
+        "field": "x",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "axis": {"labelAngle": 0, "orient": "top"}
+      },
+      "y": {
+        "field": "y",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "sort": "descending"
+      },
+      "detail": {"field": "t_in", "type": "nominal"},
+      "color": {"field": "interaction", "type": "nominal"},
+      "size": {"value": 100}
+    },
+    "config": {"legend": {"disable": true}},
+    "width": 600,
+    "height": 400,
+    "datasets": {
+      "projection": [
+        {"dx_in": 3, "t_in": 0, "interaction": 0, "x": 103, "y": 50},
+        {"dx_in": 3, "t_in": 1, "interaction": 0, "x": 106, "y": 53},
+        {"dx_in": 3, "t_in": 2, "interaction": 0, "x": 109, "y": 59},
+        {"dx_in": 3, "t_in": 3, "interaction": 0, "x": 112, "y": 68},
+        {"dx_in": 3, "t_in": 4, "interaction": 0, "x": 115, "y": 80},
+        {"dx_in": 3, "t_in": 5, "interaction": 0, "x": 118, "y": 95},
+        {"dx_in": 3, "t_in": 6, "interaction": 0, "x": 121, "y": 113},
+        {"dx_in": 3, "t_in": 7, "interaction": 0, "x": 124, "y": 134},
+        {"dx_in": 3, "t_in": 8, "interaction": 0, "x": 127, "y": 158},
+        {"dx_in": 3, "t_in": 9, "interaction": 0, "x": 130, "y": 185},
+        {"dx_in": 3, "t_in": 10, "interaction": 0, "x": 133, "y": 215},
+        {"dx_in": 3, "t_in": 11, "interaction": 0, "x": 136, "y": 185},
+        {"dx_in": 3, "t_in": 12, "interaction": 0, "x": 139, "y": 158},
+        {"dx_in": 3, "t_in": 13, "interaction": 0, "x": 142, "y": 134},
+        {"dx_in": 3, "t_in": 14, "interaction": 0, "x": 145, "y": 113},
+        {"dx_in": 3, "t_in": 15, "interaction": 0, "x": 148, "y": 95},
+        {"dx_in": 3, "t_in": 16, "interaction": 0, "x": 151, "y": 80},
+        {"dx_in": 3, "t_in": 17, "interaction": 0, "x": 154, "y": 68},
+        {"dx_in": 3, "t_in": 18, "interaction": 0, "x": 157, "y": 59},
+        {"dx_in": 3, "t_in": 19, "interaction": 0, "x": 160, "y": 53},
+        {"dx_in": 3, "t_in": 20, "interaction": 0, "x": 163, "y": 50},
+        {"dx_in": 3, "t_in": 21, "interaction": 0, "x": 166, "y": 50},
+        {"dx_in": 3, "t_in": 22, "interaction": 0, "x": 169, "y": 53},
+        {"dx_in": 3, "t_in": 23, "interaction": 0, "x": 172, "y": 59},
+        {"dx_in": 3, "t_in": 24, "interaction": 0, "x": 175, "y": 68},
+        {"dx_in": 3, "t_in": 25, "interaction": 0, "x": 178, "y": 80},
+        {"dx_in": 3, "t_in": 26, "interaction": 0, "x": 181, "y": 95},
+        {"dx_in": 3, "t_in": 27, "interaction": 0, "x": 184, "y": 113},
+        {"dx_in": 3, "t_in": 28, "interaction": 0, "x": 187, "y": 134},
+        {"dx_in": 3, "t_in": 29, "interaction": 0, "x": 190, "y": 158},
+        {"dx_in": 3, "t_in": 30, "interaction": 0, "x": 193, "y": 185},
+        {"dx_in": 3, "t_in": 31, "interaction": 0, "x": 196, "y": 215},
+        {"dx_in": 3, "t_in": 32, "interaction": 0, "x": 199, "y": 185},
+        {"dx_in": 3, "t_in": 33, "interaction": 0, "x": 202, "y": 158},
+        {"dx_in": 3, "t_in": 34, "interaction": 0, "x": 205, "y": 134},
+        {"dx_in": 3, "t_in": 35, "interaction": 0, "x": 208, "y": 113},
+        {"dx_in": 3, "t_in": 36, "interaction": 0, "x": 211, "y": 95},
+        {"dx_in": 3, "t_in": 37, "interaction": 0, "x": 214, "y": 80},
+        {"dx_in": 3, "t_in": 38, "interaction": 0, "x": 217, "y": 68},
+        {"dx_in": 3, "t_in": 39, "interaction": 0, "x": 220, "y": 59},
+        {"dx_in": 3, "t_in": 40, "interaction": 0, "x": 223, "y": 53},
+        {"dx_in": 3, "t_in": 41, "interaction": 0, "x": 226, "y": 50},
+        {"dx_in": 3, "t_in": 42, "interaction": 0, "x": 229, "y": 50},
+        {"dx_in": 3, "t_in": 43, "interaction": 0, "x": 232, "y": 53},
+        {"dx_in": 3, "t_in": 44, "interaction": 0, "x": 235, "y": 59},
+        {"dx_in": 3, "t_in": 45, "interaction": 0, "x": 238, "y": 68},
+        {"dx_in": 3, "t_in": 46, "interaction": 0, "x": 241, "y": 80},
+        {"dx_in": 3, "t_in": 47, "interaction": 0, "x": 244, "y": 95},
+        {"dx_in": 3, "t_in": 48, "interaction": 0, "x": 247, "y": 113},
+        {"dx_in": 3, "t_in": 49, "interaction": 0, "x": 250, "y": 134},
+        {"dx_in": 3, "t_in": 50, "interaction": 0, "x": 253, "y": 158},
+        {"dx_in": 3, "t_in": 51, "interaction": 0, "x": 256, "y": 185},
+        {"dx_in": 3, "t_in": 52, "interaction": 0, "x": 259, "y": 215},
+        {"dx_in": 3, "t_in": 53, "interaction": 0, "x": 262, "y": 185},
+        {"dx_in": 3, "t_in": 54, "interaction": 0, "x": 265, "y": 158},
+        {"dx_in": 3, "t_in": 55, "interaction": 0, "x": 268, "y": 134},
+        {"dx_in": 3, "t_in": 56, "interaction": 0, "x": 271, "y": 113},
+        {"dx_in": 3, "t_in": 57, "interaction": 0, "x": 274, "y": 95},
+        {"dx_in": 3, "t_in": 58, "interaction": 0, "x": 277, "y": 80},
+        {"dx_in": 3, "t_in": 59, "interaction": 0, "x": 280, "y": 68}
+      ]
+    }
+  },{
+    "data": {"name": "projection"},
+    "mark": {"type": "point", "tooltip": true, "strokeWidth": 5},
+    "encoding": {
+      "x": {
+        "field": "x",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "axis": {"labelAngle": 0, "orient": "top"}
+      },
+      "y": {
+        "field": "y",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "sort": "descending"
+      },
+      "detail": {"field": "t_in", "type": "nominal"},
+      "color": {"field": "interaction", "type": "nominal"},
+      "size": {"value": 100}
+    },
+    "config": {"legend": {"disable": true}},
+    "width": 600,
+    "height": 400,
+    "datasets": {
+      "projection": [
+        {"dx_in": 3, "t_in": 0, "interaction": 0, "x": 103, "y": 50},
+        {"dx_in": 3, "t_in": 1, "interaction": 0, "x": 106, "y": 53},
+        {"dx_in": 3, "t_in": 2, "interaction": 0, "x": 109, "y": 59},
+        {"dx_in": 3, "t_in": 3, "interaction": 0, "x": 112, "y": 68},
+        {"dx_in": 3, "t_in": 4, "interaction": 0, "x": 115, "y": 80},
+        {"dx_in": 3, "t_in": 5, "interaction": 0, "x": 118, "y": 95},
+        {"dx_in": 3, "t_in": 6, "interaction": 0, "x": 121, "y": 113},
+        {"dx_in": 3, "t_in": 7, "interaction": 0, "x": 124, "y": 134},
+        {"dx_in": 3, "t_in": 8, "interaction": 0, "x": 127, "y": 158},
+        {"dx_in": 3, "t_in": 9, "interaction": 0, "x": 130, "y": 185},
+        {"dx_in": 3, "t_in": 10, "interaction": 0, "x": 133, "y": 190},
+        {"dx_in": 3, "t_in": 11, "interaction": 0, "x": 136, "y": 160},
+        {"dx_in": 3, "t_in": 12, "interaction": 0, "x": 139, "y": 133},
+        {"dx_in": 3, "t_in": 13, "interaction": 0, "x": 142, "y": 109},
+        {"dx_in": 3, "t_in": 14, "interaction": 0, "x": 145, "y": 88},
+        {"dx_in": 3, "t_in": 15, "interaction": 0, "x": 148, "y": 70},
+        {"dx_in": 3, "t_in": 16, "interaction": 0, "x": 151, "y": 55},
+        {"dx_in": 3, "t_in": 17, "interaction": 0, "x": 154, "y": 43},
+        {"dx_in": 3, "t_in": 18, "interaction": 0, "x": 157, "y": 34},
+        {"dx_in": 3, "t_in": 19, "interaction": 0, "x": 160, "y": 28},
+        {"dx_in": 3, "t_in": 20, "interaction": 0, "x": 163, "y": 25},
+        {"dx_in": 3, "t_in": 21, "interaction": 0, "x": 166, "y": 25},
+        {"dx_in": 3, "t_in": 22, "interaction": 0, "x": 169, "y": 28},
+        {"dx_in": 3, "t_in": 23, "interaction": 0, "x": 172, "y": 34},
+        {"dx_in": 3, "t_in": 24, "interaction": 0, "x": 175, "y": 43},
+        {"dx_in": 3, "t_in": 25, "interaction": 0, "x": 178, "y": 55},
+        {"dx_in": 3, "t_in": 26, "interaction": 0, "x": 181, "y": 70},
+        {"dx_in": 3, "t_in": 27, "interaction": 0, "x": 184, "y": 88},
+        {"dx_in": 3, "t_in": 28, "interaction": 0, "x": 187, "y": 109},
+        {"dx_in": 3, "t_in": 29, "interaction": 0, "x": 190, "y": 133},
+        {"dx_in": 3, "t_in": 30, "interaction": 0, "x": 193, "y": 160},
+        {"dx_in": 3, "t_in": 31, "interaction": 0, "x": 196, "y": 190},
+        {"dx_in": 3, "t_in": 32, "interaction": 0, "x": 199, "y": 160},
+        {"dx_in": 3, "t_in": 33, "interaction": 0, "x": 202, "y": 133},
+        {"dx_in": 3, "t_in": 34, "interaction": 0, "x": 205, "y": 109},
+        {"dx_in": 3, "t_in": 35, "interaction": 0, "x": 208, "y": 88},
+        {"dx_in": 3, "t_in": 36, "interaction": 0, "x": 211, "y": 70},
+        {"dx_in": 3, "t_in": 37, "interaction": 0, "x": 214, "y": 55},
+        {"dx_in": 3, "t_in": 38, "interaction": 0, "x": 217, "y": 43},
+        {"dx_in": 3, "t_in": 39, "interaction": 0, "x": 220, "y": 34},
+        {"dx_in": 3, "t_in": 40, "interaction": 0, "x": 223, "y": 28},
+        {"dx_in": 3, "t_in": 41, "interaction": 0, "x": 226, "y": 25},
+        {"dx_in": 3, "t_in": 42, "interaction": 0, "x": 229, "y": 25},
+        {"dx_in": 3, "t_in": 43, "interaction": 0, "x": 232, "y": 28},
+        {"dx_in": 3, "t_in": 44, "interaction": 0, "x": 235, "y": 34},
+        {"dx_in": 3, "t_in": 45, "interaction": 0, "x": 238, "y": 43},
+        {"dx_in": 3, "t_in": 46, "interaction": 0, "x": 241, "y": 55},
+        {"dx_in": 3, "t_in": 47, "interaction": 0, "x": 244, "y": 70},
+        {"dx_in": 3, "t_in": 48, "interaction": 0, "x": 247, "y": 88},
+        {"dx_in": 3, "t_in": 49, "interaction": 0, "x": 250, "y": 109},
+        {"dx_in": 3, "t_in": 50, "interaction": 0, "x": 253, "y": 133},
+        {"dx_in": 3, "t_in": 51, "interaction": 0, "x": 256, "y": 160},
+        {"dx_in": 3, "t_in": 52, "interaction": 0, "x": 259, "y": 190},
+        {"dx_in": 3, "t_in": 53, "interaction": 0, "x": 262, "y": 160},
+        {"dx_in": 3, "t_in": 54, "interaction": 0, "x": 265, "y": 133},
+        {"dx_in": 3, "t_in": 55, "interaction": 0, "x": 268, "y": 109},
+        {"dx_in": 3, "t_in": 56, "interaction": 0, "x": 271, "y": 88},
+        {"dx_in": 3, "t_in": 57, "interaction": 0, "x": 274, "y": 70},
+        {"dx_in": 3, "t_in": 58, "interaction": 0, "x": 277, "y": 55},
+        {"dx_in": 3, "t_in": 59, "interaction": 0, "x": 280, "y": 43}
+      ]
+    }
+  },{
+    "data": {"name": "projection"},
+    "mark": {"type": "point", "tooltip": true, "strokeWidth": 5},
+    "encoding": {
+      "x": {
+        "field": "x",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "axis": {"labelAngle": 0, "orient": "top"}
+      },
+      "y": {
+        "field": "y",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "sort": "descending"
+      },
+      "detail": {"field": "t_in", "type": "nominal"},
+      "color": {"field": "interaction", "type": "nominal"},
+      "size": {"value": 100}
+    },
+    "config": {"legend": {"disable": true}},
+    "width": 600,
+    "height": 400,
+    "datasets": {
+      "projection": [
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 0,
+          "interaction": 0,
+          "x": 103,
+          "y": 50
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 1,
+          "interaction": 0,
+          "x": 106,
+          "y": 53
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 2,
+          "interaction": 0,
+          "x": 109,
+          "y": 58.7
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 3,
+          "interaction": 0,
+          "x": 112,
+          "y": 66.83
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 4,
+          "interaction": 0,
+          "x": 115,
+          "y": 77.14699999999999
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 5,
+          "interaction": 0,
+          "x": 118,
+          "y": 89.4323
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 6,
+          "interaction": 0,
+          "x": 121,
+          "y": 103.48907
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 7,
+          "interaction": 0,
+          "x": 124,
+          "y": 119.140163
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 8,
+          "interaction": 0,
+          "x": 127,
+          "y": 136.22614670000002
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 9,
+          "interaction": 0,
+          "x": 130,
+          "y": 154.60353203000003
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 10,
+          "interaction": 0,
+          "x": 133,
+          "y": 174.14317882700004
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 11,
+          "interaction": 0,
+          "x": 136,
+          "y": 190
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 12,
+          "interaction": 0,
+          "x": 139,
+          "y": 169.4143178827
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 13,
+          "interaction": 0,
+          "x": 142,
+          "y": 153.88720397713
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 14,
+          "interaction": 0,
+          "x": 145,
+          "y": 142.91280146211702
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 15,
+          "interaction": 0,
+          "x": 148,
+          "y": 136.03583919860532
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 16,
+          "interaction": 0,
+          "x": 151,
+          "y": 132.84657316144478
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 17,
+          "interaction": 0,
+          "x": 154,
+          "y": 132.9762337280003
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 18,
+          "interaction": 0,
+          "x": 157,
+          "y": 136.09292823790025
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 19,
+          "interaction": 0,
+          "x": 160,
+          "y": 141.89795329681021
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 20,
+          "interaction": 0,
+          "x": 163,
+          "y": 150.1224758498292
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 21,
+          "interaction": 0,
+          "x": 166,
+          "y": 160.52454614754626
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 22,
+          "interaction": 0,
+          "x": 169,
+          "y": 172.88640941549164
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 23,
+          "interaction": 0,
+          "x": 172,
+          "y": 190
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 24,
+          "interaction": 0,
+          "x": 175,
+          "y": 175.87432305884917
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 25,
+          "interaction": 0,
+          "x": 178,
+          "y": 166.1612138118134
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 26,
+          "interaction": 0,
+          "x": 181,
+          "y": 160.41941548948122
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 27,
+          "interaction": 0,
+          "x": 184,
+          "y": 158.25179699938226
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 28,
+          "interaction": 0,
+          "x": 187,
+          "y": 159.3009403582932
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 29,
+          "interaction": 0,
+          "x": 190,
+          "y": 163.24516938131302
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 30,
+          "interaction": 0,
+          "x": 193,
+          "y": 169.79497550203087
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 31,
+          "interaction": 0,
+          "x": 196,
+          "y": 178.68980101067694
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 32,
+          "interaction": 0,
+          "x": 199,
+          "y": 190
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 33,
+          "interaction": 0,
+          "x": 202,
+          "y": 178.99465704221853
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 34,
+          "interaction": 0,
+          "x": 205,
+          "y": 172.08984838021522
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 35,
+          "interaction": 0,
+          "x": 208,
+          "y": 168.87552058441221
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 36,
+          "interaction": 0,
+          "x": 211,
+          "y": 168.98262556818952
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 37,
+          "interaction": 0,
+          "x": 214,
+          "y": 172.0790200535891
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 38,
+          "interaction": 0,
+          "x": 217,
+          "y": 177.86577509044872
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 39,
+          "interaction": 0,
+          "x": 220,
+          "y": 190
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 40,
+          "interaction": 0,
+          "x": 223,
+          "y": 181.79192046682635
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 41,
+          "interaction": 0,
+          "x": 226,
+          "y": 177.40464888697005
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 42,
+          "interaction": 0,
+          "x": 229,
+          "y": 176.45610446509937
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 43,
+          "interaction": 0,
+          "x": 232,
+          "y": 178.60241448541578
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 44,
+          "interaction": 0,
+          "x": 235,
+          "y": 183.53409350370055
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 45,
+          "interaction": 0,
+          "x": 238,
+          "y": 190
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 46,
+          "interaction": 0,
+          "x": 241,
+          "y": 182.56148888354372
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 47,
+          "interaction": 0,
+          "x": 244,
+          "y": 178.86682887873306
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 48,
+          "interaction": 0,
+          "x": 247,
+          "y": 178.54163487440346
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 49,
+          "interaction": 0,
+          "x": 250,
+          "y": 181.2489602705068
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 50,
+          "interaction": 0,
+          "x": 253,
+          "y": 190
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 51,
+          "interaction": 0,
+          "x": 256,
+          "y": 184.56340714350696
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 52,
+          "interaction": 0,
+          "x": 259,
+          "y": 182.67047357266324
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 53,
+          "interaction": 0,
+          "x": 262,
+          "y": 183.9668333589039
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 54,
+          "interaction": 0,
+          "x": 265,
+          "y": 190
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 55,
+          "interaction": 0,
+          "x": 268,
+          "y": 190
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 56,
+          "interaction": 0,
+          "x": 271,
+          "y": 190
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 57,
+          "interaction": 0,
+          "x": 274,
+          "y": 190
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 58,
+          "interaction": 0,
+          "x": 277,
+          "y": 190
+        },
+        {
+          "dampener_in": 0.9,
+          "dx_in": 3,
+          "t_in": 59,
+          "interaction": 0,
+          "x": 280,
+          "y": 190
+        }
+      ]
+    }
+  }],
+  "gemSpecs": [
+    {
+      "meta": {"name": "All at once"},
+      "timeline": {
+        "sync": [
+          {
+            "component": {"axis": "x"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"axis": "y"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["t_in"]},
+            "timing": {"duration": {"ratio": 1}}
+          }
+        ]
+      },
+      "totalDuration": 2000
+    },{
+      "meta": {"name": "All at once"},
+      "timeline": {
+        "sync": [
+          {
+            "component": {"axis": "x"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"axis": "y"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["t_in"]},
+            "timing": {"duration": {"ratio": 1}}
+          }
+        ]
+      },
+      "totalDuration": 2000
+    },{
+      "meta": {"name": "All at once"},
+      "timeline": {
+        "sync": [
+          {
+            "component": {"axis": "x"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"axis": "y"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["t_in"]},
+            "timing": {"duration": {"ratio": 1}}
+          }
+        ]
+      },
+      "totalDuration": 2000
+    },{
+      "meta": {"name": "All at once"},
+      "timeline": {
+        "sync": [
+          {
+            "component": {"axis": "x"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"axis": "y"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["t_in"]},
+            "timing": {"duration": {"ratio": 1}}
+          }
+        ]
+      },
+      "totalDuration": 2000
+    },{
+      "meta": {"name": "All at once"},
+      "timeline": {
+        "sync": [
+          {
+            "component": {"axis": "x"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"axis": "y"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["t_in"]},
+            "timing": {"duration": {"ratio": 1}}
+          }
+        ]
+      },
+      "totalDuration": 2000
+    },{
+      "meta": {"name": "All at once"},
+      "timeline": {
+        "sync": [
+          {
+            "component": {"axis": "x"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"axis": "y"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["t_in"]},
+            "timing": {"duration": {"ratio": 1}}
+          }
+        ]
+      },
+      "totalDuration": 2000
+    },{
+      "meta": {"name": "All at once"},
+      "timeline": {
+        "sync": [
+          {
+            "component": {"axis": "x"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"axis": "y"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["t_in"]},
+            "timing": {"duration": {"ratio": 1}}
+          }
+        ]
+      },
+      "totalDuration": 2000
+    },
+    {
+      "meta": {"name": "Scale -> Update -> Enter -> Exit"},
+      "timeline": {
+        "concat": [
+          {
+            "sync": [
+              {"component": {"axis": "x"}, "timing": {"duration": {"ratio": 0.4}}},
+              {"component": {"axis": "y"}, "timing": {"duration": {"ratio": 0.4}}},
+              {
+                "component": {"mark": "marks"},
+                "change": {"data": false},
+                "timing": {"duration": {"ratio": 0.4}}
+              }
+            ]
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {
+              "data": {"keys": ["name"], "enter": false, "exit": false},
+              "encode": {"enter": false, "exit": false}
+            },
+            "timing": {"duration": {"ratio": 0.2}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {
+              "data": {"keys": ["name"], "exit": false},
+              "encode": {"exit": false}
+            },
+            "timing": {"duration": {"ratio": 0.2}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["name"]},
+            "timing": {"duration": {"ratio": 0.2}}
+          }
+        ]
+      },
+      "totalDuration": 3000
+    },
+    {
+      "meta": {"name": "Interpolate with a manual encode"},
+      "timeline": {
+        "concat": [
+          {
+            "component": {"mark": "marks"},
+            "change": {
+              "data": false,
+              "scale": false,
+              "encode": {
+                "update": {"size": {"value": 1000}, "x": {"signal": "width/2"}, "y": {"signal": "height/2"}}
+              }
+            },
+            "timing": {"duration": {"ratio": 1}, "ease": "cubicIn"}
+          },
+          {
+            "sync": [
+              {
+                "component": {"axis": "x"},
+                "timing": {"duration": {"ratio": 1}, "ease": "cubicOut"}
+              },
+              {
+                "component": {"axis": "y"},
+                "timing": {"duration": {"ratio": 1}, "ease": "cubicOut"}
+              },
+              {
+                "component": {"mark": "marks"},
+                "change": { "data": ["name"]},
+                "timing": {"duration": {"ratio": 1}, "ease": "cubicOut"}
+              }
+            ]
+          }
+        ]
+      },
+      "totalDuration": 2000
+    }
+  ],
+  "userInput": {
+    "marks": {"marks": {"change": {"data": ["name"]}}},
+    "scales": {"x": {"domainDimension": "same"}, "y": {"domainDimension": "same"}}
+  }
+}
