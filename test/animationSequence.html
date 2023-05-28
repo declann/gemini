@@ -29,6 +29,7 @@
 
     let animSequence = await gemini.animateSequence(sequence, gemSpecs)
     let anim = await gemini.animate(sequence[0], sequence[1], gemSpecs[0]);
+    //let result = await animSequence.play("#view")
     let result = await anim.play("#view")
     console.log(result);
     // await anim.play("#view")
