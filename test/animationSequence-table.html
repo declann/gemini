@@ -1,0 +1,39 @@
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="../gemini.web.js" ></script>
+
+</head>
+<body onload="javascript:init()">
+  <div id="view"></div>
+  <button onclick="javascript:play()">Play</button>
+  <button onclick="javascript:init()">Reset</button>
+  <script>
+
+  //Todo
+  let gemSpecs, sequence;
+  async function init(){
+
+    input = await d3.json("./examples/transition/calculang-table.json");
+    //input = await d3.json("./examples/transition/calculang-projectile.json");
+    gemSpecs = input.gemSpecs;
+    sequence = input.sequence.map(gemini.vl2vg4gemini);
+
+    vegaEmbed("#view", sequence[0], {renderer: "svg"})
+  }
+
+
+  async function play() {
+
+    let animSequence = await gemini.animateSequence(sequence, gemSpecs)
+    let anim = await gemini.animate(sequence[0], sequence[1], gemSpecs[0]);
+    //let result = await animSequence.play("#view")
+    let result = await anim.play("#view")
+    console.log(result);
+    // await anim.play("#view")
+  }
+
+  </script>
+</body>
