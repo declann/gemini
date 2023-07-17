@@ -202,7 +202,7 @@
           }
         ]
       },
-      "totalDuration": 1000
+      "totalDuration": 2000
     },{
       "meta": {"name": "All at once"},
       "timeline": {
