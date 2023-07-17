@@ -141,22 +141,68 @@
               {
                 "component": {"mark": "marks"},
                 "change": {
-                  "scale": ["x"],
-                  "data": ["price_in", "cost_in", "formula"],
+                  "scale": false,
+                  "data": {
+                    "keys": ["formula", "price_in", "cost_in"],
+                    "enter": false,
+                    "update": false,
+                    "exit": true
+                  },
+                  "encode": {
+                    "update": {"x": false},
+                    "enter": {"x": false},
+                    "exit": {"x": false}
+                  }
+                },
+                "timing": {"duration": {"ratio": 0.3}}
+              }
+            ]
+          },
+          {
+            "sync": [
+              {
+                "component": {"mark": "marks"},
+                "change": {
+                  "scale": true,
+                  "data": {
+                    "keys": ["formula", "price_in", "cost_in"],
+                    "enter": false,
+                    "update": true,
+                    "exit": true
+                  },
+                  "encode": {"update": true, "enter": false, "exit": true}
+                },
+                "timing": {"duration": {"ratio": 0.3}}
+              },
+              {"component": {"axis": "x"}, "timing": {"duration": {"ratio": 0.5}}}
+            ]
+          },
+          {
+            "sync": [
+              {
+                "component": {"mark": "marks"},
+                "change": {
+                  "scale": true,
+                  "data": {
+                    "keys": ["formula", "price_in", "cost_in"],
+                    "enter": true,
+                    "update": true,
+                    "exit": true
+                  },
                   "encode": {"update": true, "enter": true, "exit": true}
                 },
-                "timing": {"duration": {"ratio": 1}}
+                "timing": {"duration": {"ratio": 0.5}}
               },
               {
                 "component": {"axis": "x"},
                 "change": {"scale": {"domainDimension": "diff"}},
-                "timing": {"duration": {"ratio": 1}}
+                "timing": {"duration": {"ratio": 0.5}}
               }
             ]
           }
         ]
       },
-      "totalDuration": 2000
+      "totalDuration": 1000
     },{
       "meta": {"name": "All at once"},
       "timeline": {
