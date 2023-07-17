@@ -134,21 +134,25 @@
   }],
   "gemSpecs": [
     {
-      "meta": {"name": "All at once"},
       "timeline": {
-        "sync": [
+        "concat": [
           {
-            "component": {"axis": "x"},
-            "timing": {"duration": {"ratio": 1}}
-          },
-          {
-            "component": {"axis": "y"},
-            "timing": {"duration": {"ratio": 1}}
-          },
-          {
-            "component": {"mark": "marks"},
-            "change": {"data": ["cost_in", "price_in"]},
-            "timing": {"duration": {"ratio": 1}}
+            "sync": [
+              {
+                "component": {"mark": "marks"},
+                "change": {
+                  "scale": ["x"],
+                  "data": ["price_in", "cost_in", "formula"],
+                  "encode": {"update": true, "enter": true, "exit": true}
+                },
+                "timing": {"duration": {"ratio": 1}}
+              },
+              {
+                "component": {"axis": "x"},
+                "change": {"scale": {"domainDimension": "diff"}},
+                "timing": {"duration": {"ratio": 1}}
+              }
+            ]
           }
         ]
       },
