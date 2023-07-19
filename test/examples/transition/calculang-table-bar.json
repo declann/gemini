@@ -2,7 +2,7 @@
   "title": "Changing the Data of a Scatter Plot",
   "sequence": [{
     "data": {"name": "projection"},
-    "mark": {"type": "bar", "tooltip": true, "align": "right"},
+    "mark": {"type": "bar", "tooltip": true},
     "encoding": {
       "x": {
         "field": "price_in",
@@ -38,7 +38,7 @@
     }
   },{
     "data": {"name": "projection"},
-    "mark": {"type": "bar", "tooltip": true, "align": "right"},
+    "mark": {"type": "bar", "tooltip": true},
     "encoding": {
       "x": {
         "field": "cost_in",
