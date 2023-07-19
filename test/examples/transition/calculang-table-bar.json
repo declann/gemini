@@ -9,14 +9,13 @@
         "scale": {"rangeStep": 12},
         "axis": {
           "labelAngle": 0,
-          "orient": "top",
-          "labelAlign": "right"
+          "orient": "top"
           
         }
       },
       "y": {"field": "value", "type": "quantitative", "title": "profit"},
       "text": {"field": "value", "type": "nominal" },
-      "color": { "condition": {"test": "datum.price_in==15", "value": "#f55"}, "value": "pink" }
+      "color": { "condition": {"test": "datum.price_in==15", "value": "pink"}, "value": "#6af" }
     },
     "config": {"legend": {"disable": true}},
     "width": 600,
@@ -45,14 +44,13 @@
         "scale": {"rangeStep": 12},
         "axis": {
           "labelAngle": 0,
-          "orient": "top",
-          "labelAlign": "right"
+          "orient": "top"
           
         }
       },
       "y": {"field": "value", "type": "quantitative", "title": "profit"},
       "text": {"field": "value", "type": "nominal" },
-      "color": { "condition": {"test": "datum.cost_in==7", "value": "#f55"}, "value": "pink" }
+      "color": { "condition": {"test": "datum.cost_in==7", "value": "pink"}, "value": "#6af" }
     },
     "config": {"legend": {"disable": true}},
     "width": 600,
