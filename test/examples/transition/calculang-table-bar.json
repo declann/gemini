@@ -1,0 +1,428 @@
+{
+  "title": "Changing the Data of a Scatter Plot",
+  "sequence": [{
+    "data": {"name": "projection"},
+    "mark": {"type": "text", "tooltip": true, "align": "right"},
+    "encoding": {
+      "x": {
+        "field": "price_in",
+        "type": "nominal",
+        "scale": {"rangeStep": 12},
+        "axis": {
+          "labelAngle": 0,
+          "orient": "top",
+          "labelAlign": "right"
+          
+        }
+      },
+      "y": {"field": "formula", "type": "nominal"},
+      "text": {"field": "value", "type": "nominal" },
+      "color": {"field": "formula", "type": "nominal"}
+    },
+    "config": {"legend": {"disable": true}},
+    "width": 600,
+    "height": 100,
+    "datasets": {
+      "projection": [
+        {"cost_in": 7, "price_in": 10, "formula": "profit", "value": 225},
+        {"cost_in": 7, "price_in": 10, "formula": "revenue", "value": 750},
+        {"cost_in": 7, "price_in": 10, "formula": "costs", "value": 525},
+        {"cost_in": 7, "price_in": 10, "formula": "cups", "value": 75},
+        {"cost_in": 7, "price_in": 11, "formula": "profit", "value": 280},
+        {"cost_in": 7, "price_in": 11, "formula": "revenue", "value": 770},
+        {"cost_in": 7, "price_in": 11, "formula": "costs", "value": 490},
+        {"cost_in": 7, "price_in": 11, "formula": "cups", "value": 70},
+        {"cost_in": 7, "price_in": 12, "formula": "profit", "value": 325},
+        {"cost_in": 7, "price_in": 12, "formula": "revenue", "value": 780},
+        {"cost_in": 7, "price_in": 12, "formula": "costs", "value": 455},
+        {"cost_in": 7, "price_in": 12, "formula": "cups", "value": 65},
+        {"cost_in": 7, "price_in": 13, "formula": "profit", "value": 360},
+        {"cost_in": 7, "price_in": 13, "formula": "revenue", "value": 780},
+        {"cost_in": 7, "price_in": 13, "formula": "costs", "value": 420},
+        {"cost_in": 7, "price_in": 13, "formula": "cups", "value": 60},
+        {"cost_in": 7, "price_in": 14, "formula": "profit", "value": 385},
+        {"cost_in": 7, "price_in": 14, "formula": "revenue", "value": 770},
+        {"cost_in": 7, "price_in": 14, "formula": "costs", "value": 385},
+        {"cost_in": 7, "price_in": 14, "formula": "cups", "value": 55},
+        {"cost_in": 7, "price_in": 15, "formula": "profit", "value": 400},
+        {"cost_in": 7, "price_in": 15, "formula": "revenue", "value": 750},
+        {"cost_in": 7, "price_in": 15, "formula": "costs", "value": 350},
+        {"cost_in": 7, "price_in": 15, "formula": "cups", "value": 50},
+        {"cost_in": 7, "price_in": 16, "formula": "profit", "value": 405},
+        {"cost_in": 7, "price_in": 16, "formula": "revenue", "value": 720},
+        {"cost_in": 7, "price_in": 16, "formula": "costs", "value": 315},
+        {"cost_in": 7, "price_in": 16, "formula": "cups", "value": 45},
+        {"cost_in": 7, "price_in": 17, "formula": "profit", "value": 400},
+        {"cost_in": 7, "price_in": 17, "formula": "revenue", "value": 680},
+        {"cost_in": 7, "price_in": 17, "formula": "costs", "value": 280},
+        {"cost_in": 7, "price_in": 17, "formula": "cups", "value": 40},
+        {"cost_in": 7, "price_in": 18, "formula": "profit", "value": 385},
+        {"cost_in": 7, "price_in": 18, "formula": "revenue", "value": 630},
+        {"cost_in": 7, "price_in": 18, "formula": "costs", "value": 245},
+        {"cost_in": 7, "price_in": 18, "formula": "cups", "value": 35},
+        {"cost_in": 7, "price_in": 19, "formula": "profit", "value": 360},
+        {"cost_in": 7, "price_in": 19, "formula": "revenue", "value": 570},
+        {"cost_in": 7, "price_in": 19, "formula": "costs", "value": 210},
+        {"cost_in": 7, "price_in": 19, "formula": "cups", "value": 30},
+        {"cost_in": 7, "price_in": 20, "formula": "profit", "value": 325},
+        {"cost_in": 7, "price_in": 20, "formula": "revenue", "value": 500},
+        {"cost_in": 7, "price_in": 20, "formula": "costs", "value": 175},
+        {"cost_in": 7, "price_in": 20, "formula": "cups", "value": 25}
+      ]
+    }
+  },{
+    "data": {"name": "projection"},
+    "mark": {"type": "text", "tooltip": true, "align": "right"},
+    "encoding": {
+      "x": {
+        "field": "cost_in",
+        "type": "nominal",
+        "axis": {
+          "labelAngle": 0,
+          "orient": "top",
+          "labelAlign": "right"
+          
+        }
+      },
+      "y": {"field": "formula", "type": "nominal"},
+      "text": {"field": "value", "type": "nominal" },
+      "color": {"field": "formula", "type": "nominal"}
+    },
+    "config": {"legend": {"disable": true}},
+    "width": 600,
+    "height": 100,
+    "datasets": {
+      "projection": [
+        {"cost_in": 5, "price_in": 15, "formula": "profit", "value": 500},
+        {"cost_in": 5, "price_in": 15, "formula": "revenue", "value": 750},
+        {"cost_in": 5, "price_in": 15, "formula": "costs", "value": 250},
+        {"cost_in": 5, "price_in": 15, "formula": "cups", "value": 50},
+        {"cost_in": 5.25, "price_in": 15, "formula": "profit", "value": 487.5},
+        {"cost_in": 5.25, "price_in": 15, "formula": "revenue", "value": 750},
+        {"cost_in": 5.25, "price_in": 15, "formula": "costs", "value": 262.5},
+        {"cost_in": 5.25, "price_in": 15, "formula": "cups", "value": 50},
+        {"cost_in": 5.5, "price_in": 15, "formula": "profit", "value": 475},
+        {"cost_in": 5.5, "price_in": 15, "formula": "revenue", "value": 750},
+        {"cost_in": 5.5, "price_in": 15, "formula": "costs", "value": 275},
+        {"cost_in": 5.5, "price_in": 15, "formula": "cups", "value": 50},
+        {"cost_in": 5.75, "price_in": 15, "formula": "profit", "value": 462.5},
+        {"cost_in": 5.75, "price_in": 15, "formula": "revenue", "value": 750},
+        {"cost_in": 5.75, "price_in": 15, "formula": "costs", "value": 287.5},
+        {"cost_in": 5.75, "price_in": 15, "formula": "cups", "value": 50},
+        {"cost_in": 6, "price_in": 15, "formula": "profit", "value": 450},
+        {"cost_in": 6, "price_in": 15, "formula": "revenue", "value": 750},
+        {"cost_in": 6, "price_in": 15, "formula": "costs", "value": 300},
+        {"cost_in": 6, "price_in": 15, "formula": "cups", "value": 50},
+        {"cost_in": 6.25, "price_in": 15, "formula": "profit", "value": 437.5},
+        {"cost_in": 6.25, "price_in": 15, "formula": "revenue", "value": 750},
+        {"cost_in": 6.25, "price_in": 15, "formula": "costs", "value": 312.5},
+        {"cost_in": 6.25, "price_in": 15, "formula": "cups", "value": 50},
+        {"cost_in": 6.5, "price_in": 15, "formula": "profit", "value": 425},
+        {"cost_in": 6.5, "price_in": 15, "formula": "revenue", "value": 750},
+        {"cost_in": 6.5, "price_in": 15, "formula": "costs", "value": 325},
+        {"cost_in": 6.5, "price_in": 15, "formula": "cups", "value": 50},
+        {"cost_in": 6.75, "price_in": 15, "formula": "profit", "value": 412.5},
+        {"cost_in": 6.75, "price_in": 15, "formula": "revenue", "value": 750},
+        {"cost_in": 6.75, "price_in": 15, "formula": "costs", "value": 337.5},
+        {"cost_in": 6.75, "price_in": 15, "formula": "cups", "value": 50},
+        {"cost_in": 7, "price_in": 15, "formula": "profit", "value": 400},
+        {"cost_in": 7, "price_in": 15, "formula": "revenue", "value": 750},
+        {"cost_in": 7, "price_in": 15, "formula": "costs", "value": 350},
+        {"cost_in": 7, "price_in": 15, "formula": "cups", "value": 50}
+      ]
+    }
+  }],
+  "gemSpecs": [
+    {
+      "timeline": {
+        "concat": [
+          {
+            "sync": [
+              {
+                "component": {"mark": "marks"},
+                "change": {
+                  "scale": false,
+                  "data": {
+                    "keys": ["formula", "price_in", "cost_in"],
+                    "enter": false,
+                    "update": false,
+                    "exit": true
+                  },
+                  "encode": {
+                    "update": {"x": false},
+                    "enter": {"x": false},
+                    "exit": {"x": false}
+                  }
+                },
+                "timing": {"duration": {"ratio": 0.3}}
+              }
+            ]
+          },
+          {
+            "sync": [
+              {
+                "component": {"mark": "marks"},
+                "change": {
+                  "scale": true,
+                  "data": {
+                    "keys": ["formula", "price_in", "cost_in"],
+                    "enter": false,
+                    "update": true,
+                    "exit": true
+                  },
+                  "encode": {"update": true, "enter": false, "exit": true}
+                },
+                "timing": {"duration": {"ratio": 0.3}}
+              },
+              {"component": {"axis": "x"}, "timing": {"duration": {"ratio": 0.5}}}
+            ]
+          },
+          {
+            "sync": [
+              {
+                "component": {"mark": "marks"},
+                "change": {
+                  "scale": true,
+                  "data": {
+                    "keys": ["formula", "price_in", "cost_in"],
+                    "enter": true,
+                    "update": true,
+                    "exit": true
+                  },
+                  "encode": {"update": true, "enter": true, "exit": true}
+                },
+                "timing": {"duration": {"ratio": 0.5}}
+              },
+              {
+                "component": {"axis": "x"},
+                "change": {"scale": {"domainDimension": "diff"}},
+                "timing": {"duration": {"ratio": 0.5}}
+              }
+            ]
+          }
+        ]
+      },
+      "totalDuration": 2000
+    },{
+      "meta": {"name": "All at once"},
+      "timeline": {
+        "sync": [
+          {
+            "component": {"axis": "x"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"axis": "y"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["t_in"]},
+            "timing": {"duration": {"ratio": 1}}
+          }
+        ]
+      },
+      "totalDuration": 2000
+    },{
+      "meta": {"name": "All at once"},
+      "timeline": {
+        "sync": [
+          {
+            "component": {"axis": "x"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"axis": "y"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["t_in"]},
+            "timing": {"duration": {"ratio": 1}}
+          }
+        ]
+      },
+      "totalDuration": 2000
+    },{
+      "meta": {"name": "All at once"},
+      "timeline": {
+        "sync": [
+          {
+            "component": {"axis": "x"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"axis": "y"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["t_in"]},
+            "timing": {"duration": {"ratio": 1}}
+          }
+        ]
+      },
+      "totalDuration": 2000
+    },{
+      "meta": {"name": "All at once"},
+      "timeline": {
+        "sync": [
+          {
+            "component": {"axis": "x"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"axis": "y"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["t_in"]},
+            "timing": {"duration": {"ratio": 1}}
+          }
+        ]
+      },
+      "totalDuration": 2000
+    },{
+      "meta": {"name": "All at once"},
+      "timeline": {
+        "sync": [
+          {
+            "component": {"axis": "x"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"axis": "y"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["t_in"]},
+            "timing": {"duration": {"ratio": 1}}
+          }
+        ]
+      },
+      "totalDuration": 2000
+    },{
+      "meta": {"name": "All at once"},
+      "timeline": {
+        "sync": [
+          {
+            "component": {"axis": "x"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"axis": "y"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["t_in"]},
+            "timing": {"duration": {"ratio": 1}}
+          }
+        ]
+      },
+      "totalDuration": 2000
+    },{
+      "meta": {"name": "All at once"},
+      "timeline": {
+        "sync": [
+          {
+            "component": {"axis": "x"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"axis": "y"},
+            "timing": {"duration": {"ratio": 1}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["t_in"]},
+            "timing": {"duration": {"ratio": 1}}
+          }
+        ]
+      },
+      "totalDuration": 2000
+    },
+    {
+      "meta": {"name": "Scale -> Update -> Enter -> Exit"},
+      "timeline": {
+        "concat": [
+          {
+            "sync": [
+              {"component": {"axis": "x"}, "timing": {"duration": {"ratio": 0.4}}},
+              {"component": {"axis": "y"}, "timing": {"duration": {"ratio": 0.4}}},
+              {
+                "component": {"mark": "marks"},
+                "change": {"data": false},
+                "timing": {"duration": {"ratio": 0.4}}
+              }
+            ]
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {
+              "data": {"keys": ["name"], "enter": false, "exit": false},
+              "encode": {"enter": false, "exit": false}
+            },
+            "timing": {"duration": {"ratio": 0.2}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {
+              "data": {"keys": ["name"], "exit": false},
+              "encode": {"exit": false}
+            },
+            "timing": {"duration": {"ratio": 0.2}}
+          },
+          {
+            "component": {"mark": "marks"},
+            "change": {"data": ["name"]},
+            "timing": {"duration": {"ratio": 0.2}}
+          }
+        ]
+      },
+      "totalDuration": 3000
+    },
+    {
+      "meta": {"name": "Interpolate with a manual encode"},
+      "timeline": {
+        "concat": [
+          {
+            "component": {"mark": "marks"},
+            "change": {
+              "data": false,
+              "scale": false,
+              "encode": {
+                "update": {"size": {"value": 1000}, "x": {"signal": "width/2"}, "y": {"signal": "height/2"}}
+              }
+            },
+            "timing": {"duration": {"ratio": 1}, "ease": "cubicIn"}
+          },
+          {
+            "sync": [
+              {
+                "component": {"axis": "x"},
+                "timing": {"duration": {"ratio": 1}, "ease": "cubicOut"}
+              },
+              {
+                "component": {"axis": "y"},
+                "timing": {"duration": {"ratio": 1}, "ease": "cubicOut"}
+              },
+              {
+                "component": {"mark": "marks"},
+                "change": { "data": ["name"]},
+                "timing": {"duration": {"ratio": 1}, "ease": "cubicOut"}
+              }
+            ]
+          }
+        ]
+      },
+      "totalDuration": 2000
+    }
+  ],
+  "userInput": {
+    "marks": {"marks": {"change": {"data": ["name"]}}},
+    "scales": {"x": {"domainDimension": "same"}, "y": {"domainDimension": "same"}}
+  }
+}
