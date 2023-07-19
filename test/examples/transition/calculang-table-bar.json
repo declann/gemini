@@ -14,7 +14,7 @@
           
         }
       },
-      "y": {"field": "value", "type": "quantitative"},
+      "y": {"field": "value", "type": "quantitative", "title": "profit"},
       "text": {"field": "value", "type": "nominal" },
       "color": {"field": "formula", "type": "nominal"}
     },
@@ -50,7 +50,7 @@
           
         }
       },
-      "y": {"field": "value", "type": "quantitative"},
+      "y": {"field": "value", "type": "quantitative", "title": "profit"},
       "text": {"field": "value", "type": "nominal" },
       "color": {"field": "formula", "type": "nominal"}
     },
