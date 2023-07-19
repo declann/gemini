@@ -2,11 +2,10 @@
   "title": "Changing the Data of a Scatter Plot",
   "sequence": [{
     "data": {"name": "projection"},
-    "mark": {"type": "text", "tooltip": true, "align": "right"},
+    "mark": {"type": "bar", "tooltip": true, "align": "right"},
     "encoding": {
       "x": {
         "field": "price_in",
-        "type": "nominal",
         "scale": {"rangeStep": 12},
         "axis": {
           "labelAngle": 0,
@@ -15,7 +14,7 @@
           
         }
       },
-      "y": {"field": "formula", "type": "nominal"},
+      "y": {"field": "value", "type": "quantitative"},
       "text": {"field": "value", "type": "nominal" },
       "color": {"field": "formula", "type": "nominal"}
     },
@@ -72,11 +71,11 @@
     }
   },{
     "data": {"name": "projection"},
-    "mark": {"type": "text", "tooltip": true, "align": "right"},
+    "mark": {"type": "bar", "tooltip": true, "align": "right"},
     "encoding": {
       "x": {
         "field": "cost_in",
-        "type": "nominal",
+        "scale": {"rangeStep": 12},
         "axis": {
           "labelAngle": 0,
           "orient": "top",
@@ -84,7 +83,7 @@
           
         }
       },
-      "y": {"field": "formula", "type": "nominal"},
+      "y": {"field": "value", "type": "quantitative"},
       "text": {"field": "value", "type": "nominal" },
       "color": {"field": "formula", "type": "nominal"}
     },
