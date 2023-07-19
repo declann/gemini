@@ -16,7 +16,7 @@
       },
       "y": {"field": "value", "type": "quantitative", "title": "profit"},
       "text": {"field": "value", "type": "nominal" },
-      "color": {"field": "formula", "type": "nominal"}
+      "color": { "condition": {"test": "datum.price_in==15", "value": "#f55"}, "value": "pink" }
     },
     "config": {"legend": {"disable": true}},
     "width": 600,
@@ -52,7 +52,7 @@
       },
       "y": {"field": "value", "type": "quantitative", "title": "profit"},
       "text": {"field": "value", "type": "nominal" },
-      "color": {"field": "formula", "type": "nominal"}
+      "color": { "condition": {"test": "datum.cost_in==7", "value": "#f55"}, "value": "pink" }
     },
     "config": {"legend": {"disable": true}},
     "width": 600,
@@ -113,7 +113,8 @@
                 },
                 "timing": {"duration": {"ratio": 0.3}}
               },
-              {"component": {"axis": "x"}, "timing": {"duration": {"ratio": 0.5}}}
+              {"component": {"axis": "x"}, "timing": {"duration": {"ratio": 0.5}}},
+              {"component": {"axis": "y"}, "timing": {"duration": {"ratio": 0.5}}}
             ]
           },
           {
