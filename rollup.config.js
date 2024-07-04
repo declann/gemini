@@ -25,7 +25,7 @@ export default {
     name: "gemini",
     globals: {
       vega: "vega",
-      "vega-lite": "vegaLite",
+      //"vega-lite": "vegaLite",
       d3: "d3",
       "vega-embed": "vegaEmbed"
     }
@@ -40,5 +40,5 @@ export default {
     }),
     json(),
     sourcemaps()],
-  external: ["vega", "vega-lite", "d3", "vega-embed"]
+  external: ["vega"/*, "vega-lite"*/, "d3", "vega-embed"]
 };
