@@ -7,7 +7,7 @@
 
 </head>
 <body onload="javascript:init()">
-  <div id="view"></div>
+  <div id="viz"></div>
   <button onclick="javascript:play()">Play</button>
   <button onclick="javascript:init()">Reset</button>
   <script>
@@ -16,12 +16,13 @@
   let gemSpecs, sequence;
   async function init(){
 
-    input = await d3.json("./examples/transition/calculang-table-bar.json");
+    //input = await d3.json("./examples/transition/calculang-table.json");
+    input = await d3.json("./examples/transition/calculang-table.json");
     //input = await d3.json("./examples/transition/calculang-projectile.json");
     gemSpecs = input.gemSpecs;
     sequence = input.sequence.map(gemini.vl2vg4gemini);
 
-    vegaEmbed("#view", sequence[0], {renderer: "svg"})
+    vegaEmbed("#viz", sequence[0], {renderer: "svg"})
   }
 
 
@@ -29,10 +30,10 @@
 
     let animSequence = await gemini.animateSequence(sequence, gemSpecs)
     let anim = await gemini.animate(sequence[0], sequence[1], gemSpecs[0]);
-    //let result = await animSequence.play("#view")
-    let result = await anim.play("#view")
+    //let result = await animSequence.play("#viz")
+    let result = await anim.play("#viz")
     console.log(result);
-    // await anim.play("#view")
+    // await anim.play("#viz")
   }
 
   </script>
